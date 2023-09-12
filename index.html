@@ -123,8 +123,14 @@ No pueden faltar en este día tan especial para celebrar nuestro amor. Acompáñ
         <img class="img1" src="./img/Gifts.png" alt="gifts">
         <p>Tu presencia es lo más importante, pero si deseas hacernos un regalo, ayudanos a cumplir nuestros sueños.
         </p>
-        <div class="botones">
-            <a class="boton2" href="">JEYROLABODA</a>
+        <div class="gift-block">
+            <div class="gift-box">
+                <div class="button" onclick="copyToClipboard('0440001140000144618677')">CBU</div>
+            </div>
+            <div class="gift-box">
+                <div class="button1" onclick="copyToClipboard('JEYROLABODA')">ALIAS</div>
+            </div>
+            
         </div>
         <p>Hace click para copiar nuestro ALIAS</p>
         <br>
@@ -153,7 +159,7 @@ No pueden faltar en este día tan especial para celebrar nuestro amor. Acompáñ
         <p>No olvides confirmar asistencia antes del 23 de noviembre. 
         </p>
         <div class="botones">
-            <a class="boton2" href="">CONFIRMAR</a>
+            <a class="boton2" href="https://forms.gle/wfsnJXVbZ5Yo2RcYA">CONFIRMAR</a>
         </div>
         <br>
         <div class="deco2">
@@ -244,6 +250,19 @@ No pueden faltar en este día tan especial para celebrar nuestro amor. Acompáñ
     </script>
 
 
+<script>
+   
+
+    function copyToClipboard(text) {
+       const tempInput = document.createElement("input");
+       document.body.appendChild(tempInput);
+       tempInput.value = text;
+       tempInput.select();
+       document.execCommand("copy");
+       document.body.removeChild(tempInput);
+       alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+     }
+   </script>
 </body>
 
 
