@@ -478,10 +478,6 @@ footer img {
     header img {
         width: 80vw;
     }
-
-    .gift-block {
-        flex-direction: column;
-    }
 .details {
         margin: 60px 0;
     }
@@ -493,6 +489,9 @@ footer img {
 
 }
 
+.gift-block {
+    flex-direction: column;
+}
 .deco2 {
     display: block;
 }
