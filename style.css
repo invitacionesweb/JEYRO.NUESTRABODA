@@ -479,7 +479,9 @@ footer img {
         width: 80vw;
     }
 
-
+    .gift-block {
+        flex-direction: column;
+    }
 .details {
         margin: 60px 0;
     }
