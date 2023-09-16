@@ -39,10 +39,11 @@
       height: 100vh;
       display: flex;
       max-width: 320px;
+      margin: auto;
       flex-direction: column;
       text-align: center;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       animation-name: texto;
       animation-duration: 8s;
 
@@ -65,13 +66,13 @@
     align-items: initial;
 }
 header h2 {
-    text-align: initial;
+    text-align: center;
     padding: 0 0 0 0px;
     font-size: 6.8rem;
     font-family: var(--font-principal);
     line-height: 90%;
     margin-bottom: 10px;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 0px;
 
 }
 
@@ -183,7 +184,9 @@ header .namesdos {
     font-family: var(--font-principal);
      color: var(--color-secundario);
      width: 20vw;
+     background-color: #E6E6E6;
      max-width: 100px;
+     border-radius: 2px;
      max-height: 100px;
      height: 20vw;
      margin: 0 5px;
@@ -275,7 +278,9 @@ header .namesdos {
     line-height: 140%;
     max-width: 600px;
 }
-
+.details .iconss {
+    height: 50px;
+}
 .details .img1 {
     width: 220px;
     position: relative;
@@ -318,15 +323,19 @@ header .namesdos {
     color: var(--color-principal);
     text-align: center;
     font-family: var(--font-principal);
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     padding: 20px 0;
 }
+.dresscode img {
+    height: 50px;
+}
 .dresscode .info {
-    font-size: 1.1rem;
-    line-height: 140%;
+
+    font-size: 1rem;
+    line-height: 160%;
     max-width: 600px;
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
 }
 /*TIMELINE*/
 .timeline {
@@ -420,7 +429,7 @@ header .namesdos {
     font-size: 1.3rem;
 }
 .end img {
-    width: 280px;
+    width: 180px;
     padding: 0;
 }
 .end p {
