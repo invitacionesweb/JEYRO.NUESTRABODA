@@ -190,6 +190,7 @@ header .namesdos {
      max-height: 100px;
      height: 20vw;
      margin: 0 5px;
+     padding: 4px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -198,11 +199,11 @@ header .namesdos {
  }
  .simply-amount {
      display: block;
-     font-size: 2.7rem;
+     font-size: 2.6rem;
      font-weight: normal;
  }
 .simply-word {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 
@@ -330,12 +331,12 @@ header .namesdos {
     height: 50px;
 }
 .dresscode .info {
-
+    
     font-size: 1rem;
     line-height: 160%;
     max-width: 600px;
     padding: 0;
-    margin: 0;
+    margin: auto;
 }
 /*TIMELINE*/
 .timeline {
