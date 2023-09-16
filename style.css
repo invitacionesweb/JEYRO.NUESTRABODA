@@ -78,14 +78,14 @@ header h2 {
 
 header .namesdos {
     width: 140px;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 0px;
     position: relative;
     margin-bottom: 20px;
     overflow-x: hidden;
 
    }
    header .boton {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 0px;
 
    }
    header .date p{
