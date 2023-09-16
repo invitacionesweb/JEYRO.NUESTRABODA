@@ -412,10 +412,11 @@ header .namesdos {
     max-width: 600px;
 }
 .rrss h2 {
-    padding: 0 0 0 10px;
+    padding: 0 0 0 0px;
     font-size: 7rem;
     font-family: var(--font-principal);
     line-height: 80%;
+    text-align: center;
 }
 
 .end {
